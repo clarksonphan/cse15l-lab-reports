@@ -5,5 +5,3 @@
 >hello world
 ***
 '''
-#code block
-System.out.print("Hello World");
