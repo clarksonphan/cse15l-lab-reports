@@ -15,6 +15,7 @@
 3. **Testing SSH Commands**
 
     After a successful remote connection with SSH, we tried various commands on the terminal that did different things from simply listing directories, to moving directories, creating directories, or combining multiple commands altogether. One important command to note is "ls" which lists all files in the current working directory on the terminal. The "ls" command has several different variations such as "ls -a", "ls -lat", and several more which may either display a wider range of directories or only display specified ones. Another notable command is "cd" which changs the user directory to whatever directory they input, which is useful to know in order to navigate around different directories when working with many files. One more command worth noting is "mkdir" which is shorthand for "make directory" which is useful in order to make more directories with a user-inputted name.
+![CommandExamples](command_example.PNG)
 
 ---
 4. **Moving Files over SSH with SCP**
@@ -34,10 +35,7 @@
 6. **Making Remote Running Even More Pleasant**
 
     In this section of the lab I tried to make the act of editing a file on my client terminal, copying this file, and running it on my remote terminal in the most efficient way possible. Through some trial and error, I learned that I can combine several commands to act in succession to speed up the process. First on my local machine, I used the "scp" command to send a copy to my remote terminal. If I am not logged into my remote account, I enter the "ssh" command followed by a "javac and java command" which will run the file upon my login. Overall, this process took about two lines of code to complete.
+![OptimizedLogin](optimized_login.PNG)
 
----
-## Lab 2
----
-1. 
 
 
