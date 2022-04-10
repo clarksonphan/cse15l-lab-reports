@@ -34,7 +34,7 @@
 6. **Making Remote Running Even More Pleasant**
 
     In this section of the lab I tried to make the act of editing a file on my client terminal, copying this file, and running it on my remote terminal in the most efficient way possible. Through some trial and error, I learned that I can combine several commands to act in succession to speed up the process. First on my local machine, I used the "scp" command to send a copy to my remote terminal. If I am not logged into my remote account, I enter the "ssh" command followed by a "javac and java command" which will run the file upon my login. Overall, this process took about two lines of code to complete.
-    
+
 ---
 ## Lab 2
 ---
