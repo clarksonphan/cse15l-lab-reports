@@ -2,7 +2,7 @@
 ---
  - **Setting up VScode**
 
-    In order to first set up VScode, we need to install the appropriate version from the [VScode](https://code.visualstudio.com/). Since I am on a Windows laptop, I installed the latest version for Windows x64 where the application will install and require no further modication to the installer to work properly. My VScode looked relatively similar to all my other group members with the exception of slight theme differences.
+    In order to first set up VScode, we need to install the appropriate version from [VScode](https://code.visualstudio.com/). Since I am on a Windows laptop, I installed the latest version for Windows x64 where the application will install and require no further modication to the installer to work properly. My VScode looked relatively similar to all my other group members with the exception of slight theme differences.
 ![VSCODE](vscode_screenshot.PNG)
 
 ---
