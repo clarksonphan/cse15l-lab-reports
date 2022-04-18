@@ -28,7 +28,7 @@
 ---
 - **SSH Keys**
 
-    In order to speed up my login process and verifcation process of certain commands, I generated a SSH key on my client terminal with the `ssh key-gen` command. After selecting the directory that I wanted to store it in, terminal outputs a randomart for the key. With this key generated, I went back to the remote terminal and entered the `mkdir .ssh` command in order to make the `.ssh" directory`. Back on the client terminal, I typed in the file name of the key and my remote login to copy over the key. After a successful copy of the key has been sent, I logged out of my remote connection and logged back in without needing to type in my password which will save me a lot of time over repeated logins.
+    In order to speed up my login process and verifcation process of certain commands, I generated a SSH key on my client terminal with the `ssh key-gen` command. After selecting the directory that I wanted to store it in, terminal outputs a randomart for the key. With this key generated, I went back to the remote terminal and entered the `mkdir .ssh` command in order to make the `.ssh` directory. Back on the client terminal, I typed in the file name of the key and my remote login to copy over the key. After a successful copy of the key has been sent, I logged out of my remote connection and logged back in without needing to type in my password which will save me a lot of time over repeated logins.
 ![KeyLogin](key_login.PNG)
 
 ---
