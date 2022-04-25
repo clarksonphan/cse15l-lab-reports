@@ -5,7 +5,7 @@
 ---
  - **First Bug**
 
-    In the [fourth test file](test4-file.md), there are three empty lines with no title present for a link. When we run the code to test this file, it results in an index out of bounds exception. This symptom is most likely caused by a bug from the code which tries to find the index of a completely empty file. This attempt access of the file's index led to an index exception in the terminal which is the symptom.
+    In the [fourth test file](https://raw.githubusercontent.com/clarksonphan/markdown-parser/main/test4-file.md), there are three empty lines with no title present for a link. When we run the code to test this file, it results in an index out of bounds exception. This symptom is most likely caused by a bug from the code which tries to find the index of a completely empty file. This attempt access of the file's index led to an index exception in the terminal which is the symptom.
 
     ![test4-error](test4-error.PNG)
 
@@ -18,7 +18,7 @@
 ---
 - **Second Bug**
 
-    The second issues appears when testing [file 3](test3-file.md) in which there is a title with no following link. The symptom when running this file is similar to the title, where an index exception will occur. The bug with this link problem is very similar to the title problem in which the program is trying to access an index between parentheses that do not exist. This will result in an attempted access to an index which does not exist which is why the terminal will throw an exception.
+    The second issues appears when testing [file 3](https://raw.githubusercontent.com/clarksonphan/markdown-parser/main/test3-file.md) in which there is a title with no following link. The symptom when running this file is similar to the title, where an index exception will occur. The bug with this link problem is very similar to the title problem in which the program is trying to access an index between parentheses that do not exist. This will result in an attempted access to an index which does not exist which is why the terminal will throw an exception.
 
     ![test3-error](test3-error.PNG)
 
@@ -32,7 +32,7 @@
 ---
 - **Third bug**
     
-    The third issue appears when we test [file 11](test11-file.md) where the code outputs the title alongside the link. This occurs when we add random symbols such as question marks and slashes into the title. The problem stems from a bug where the code does not know how to recognize anything other than parentheses or brackets so in turn, it will confuse it for parts of the link.
+    The third issue appears when we test [file 11](https://raw.githubusercontent.com/clarksonphan/markdown-parser/main/test11-file.md) where the code outputs the title alongside the link. This occurs when we add random symbols such as question marks and slashes into the title. The problem stems from a bug where the code does not know how to recognize anything other than parentheses or brackets so in turn, it will confuse it for parts of the link.
 
     ![test11-error](test11-error.PNG)
 
