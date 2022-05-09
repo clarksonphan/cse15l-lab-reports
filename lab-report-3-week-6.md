@@ -46,4 +46,5 @@
 
     In this line, several commands are combined in order to copy and run the tests.
 
-    ![one_line](one_line.PNG)
+    ![multi_copy](multi_copy.PNG)
+    ![multi_test](multi_test.PNG)
