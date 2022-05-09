@@ -27,6 +27,12 @@
 
     ![private_key](private_key.PNG)
 
+    These are some git commands that are being used on the remote server.
+
+    ![git_command](git_commands.PNG)
+    This is the link for the commit.
+    [https://github.com/clarksonphan/skill-demo/commit/e7cec30c31c51c1fe86b6a7ef453a4f92820911c](https://github.com/clarksonphan/skill-demo/commit/e7cec30c31c51c1fe86b6a7ef453a4f92820911c)
+
 ---
 - **Copy whole directories with `scp -r`**
 
