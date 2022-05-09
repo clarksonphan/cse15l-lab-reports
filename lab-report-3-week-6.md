@@ -19,7 +19,13 @@
 ---
 - **Setup Github Access from ieng6**
 
-    fafa
+    In this part of the lab, I generated a new ssh key on the remote server and copied the contents of the public key to my Github account.
+
+    ![pub_key](pub_key.PNG)
+
+    The private key is held in the .ssh directory of the remote server.
+
+    ![private_key](private_key.PNG)
 
 ---
 - **Copy whole directories with `scp -r`**
