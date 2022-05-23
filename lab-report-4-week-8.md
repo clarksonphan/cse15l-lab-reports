@@ -54,6 +54,7 @@
     The last test for snippet 3 on the reviewed implementation also failed. Compared to mine, it took out more of the excess text; however, the format for the link was not correct.
     ![reviewed_test3](reviewed_test3.PNG)
 ---
+
 - **Reworking my Code**
 
     **Troubleshooting Snippet 1**
